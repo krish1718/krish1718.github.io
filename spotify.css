@@ -5,11 +5,6 @@
     padding: 0;
 }
 
-.navbar {
-    min-width: 100vw;
-    height: 8vh;
-    background-color: #000000;
-}
 
 .navbar img {
     width: 232px;
@@ -18,19 +13,17 @@
 
 .nav-item {
     color: white;
-    padding: 0px 20px;
+    margin: 0px 20px;
     font-size: 18px;
 }
 
-.hamburger div {
-    width: 35px;
-    height: 1.5px;
-    background-color: white;
-    margin: 10px;
+.my-nav{
+    justify-content: flex-end;
 }
 
-.hamburger {
-    display: none;
+.nav-logo{
+    width: 191px;
+    padding-left: 40px;
 }
 
 .main {
@@ -51,8 +44,12 @@
     margin-left: 3.75vw;
     width: 34.5vw;
     height: 43vh;
-    margin-top: 104px;
+    margin-top: 26px;
     background-color: white;
+}
+
+.signup-text{
+    padding: 7px;
 }
 
 .right area {
@@ -76,10 +73,10 @@
     border-radius: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 790;
-    padding: 1vh 9vh;
     border: none;
-    margin-top: 21px;
-    max-width: fit-content;
+    width: 22vw;
+    height: 5vh;
+    margin-left: 6vw;
 }
 
 .signup-text {
@@ -125,7 +122,7 @@
 }
 
 .login {
-    margin-top: 40px;
+    margin-top: 7px;
 }
 
 .last {
@@ -232,6 +229,7 @@ li {
         padding: 0.7vh 6.5vh;
         width: 257px;
         height: 44px;
+        margin-top: 20px;
     }
 
     .login {
@@ -242,6 +240,7 @@ li {
     .signup-text {
         font-size: 18px;
         text-align: center;
+        padding: 0px;
     }
 
     .tsize {
@@ -279,25 +278,9 @@ li {
     }
 }
 
-@media (max-width: 992px) {
-    .navbar-nav {
-        visibility: hidden;
-    }
 
-    .hamburger {
-        display: block;
-        visibility: visible;
-        margin-right: 20px;
-    }
-}
 
 @media (max-width: 555px) {
- 
-    .navbar {
-        height: 9vh;
-        align-items: center;
-
-    }
 
     .main {
         height: 53vh;
@@ -358,11 +341,13 @@ li {
     .right button{
         width: 257px;
         height: 44px;
-        margin-right: 325px;
+        margin-right: 95vw;
         margin-top: 0px;
         padding: 1vh 10vh;
         white-space: nowrap;
         margin-top: 30px;
+        margin-left: -25vw;
+
     }
     .right{
         background-color: #171111;
@@ -377,8 +362,7 @@ li {
     }
     .signup-text{
         font-size: 14px;
-        width: 40px;
-        height: 10px;
+        padding: 0px;
     }
     .hide{
         display: none;
