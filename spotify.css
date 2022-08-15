@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    min-width: 100vw;
+    height: 8vh;
+    background-color: #000000;
+}
+
+.navbar img {
+    width: 232px;
+    padding-left: 40px;
+}
+
+.nav-item {
+    color: white;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+
+.hamburger div {
+    width: 35px;
+    height: 1.5px;
+    background-color: white;
+    margin: 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.main {
+    width: 100vw;
+    height: 62vh;
+    background-color: #171111;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    width: 50vw;
+    height: 43vh;
+    margin-top: 101px;
+}
+
+.right {
+    margin-left: 3.75vw;
+    width: 34.5vw;
+    height: 43vh;
+    margin-top: 104px;
+    background-color: white;
+}
+
+.right area {
+    margin: 0vw 9.25vw;
+}
+
+.acc,
+.acc2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.acc {
+    padding-top: 40px;
+}
+
+.right button {
+    background-color: #26D769;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 790;
+    padding: 1vh 9vh;
+    border: none;
+    margin-top: 21px;
+    max-width: fit-content;
+}
+
+.signup-text {
+    font-size: 21px;
+}
+
+.tsize {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.mar1 {
+    margin-right: 220px;
+}
+
+.mar2 {
+    margin-right: 290px;
+}
+
+.mar3 {
+    margin-right: 277px;
+}
+
+.placeholder {
+    width: 28vw;
+    height: 3.8vh;
+    border-radius: 7px;
+    border: 1px solid #ACACAC;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    color: #737272;
+    padding: 0px 1.18vw;
+}
+
+::placeholder {
+    color: #737272;
+}
+
+.terms {
+    margin-top: 21px;
+}
+
+.login {
+    margin-top: 40px;
+}
+
+.last {
+    height: 30vh;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.first {
+    width: 42vw;
+}
+
+.first img {
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 15.4vw;
+    height: 5.8vh;
+}
+
+.second,
+.third {
+    width: 29vw;
+    padding-top: 45px;
+}
+
+li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-top: 13px;
+}
+
+.header {
+    color: #ACACAC;
+    font-size: 27px;
+}
+
+.top {
+    padding-top: 23px;
+}
+
+@media (max-width: 1180px) {
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        height: fit-content;
+    }
+
+    .left img {
+        margin-top: 0px;
+    }
+
+    .right {
+        margin-top: 0px;
+    }
+
+    .last {
+        height: 21vh;
+    }
+
+    li {
+        font-size: 18px
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .left img {
+        width: 97vw;
+        height: 512px;
+    }
+
+    .first img {
+        width: 159px;
+        height: 56px;
+    }
+
+    .right {
+        width: 368px;
+        height: 366px;
+        margin-top: 30px;
+        margin-bottom: 84px;
+    }
+
+    .placeholder {
+        width: 294px;
+        height: 30px;
+    }
+
+    .tsize {
+        font-size: 10px;
+    }
+
+    .terms {
+        width: 268px;
+        height: 43px;
+    }
+
+    .right button {
+        padding: 0.7vh 6.5vh;
+        width: 257px;
+        height: 44px;
+    }
+
+    .login {
+        width: 105px;
+        height: 13px;
+    }
+
+    .signup-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .tsize {
+        margin-top: 0px;
+    }
+
+    .acc {
+        padding-top: 15px;
+    }
+
+    .login {
+        margin-top: 21px;
+    }
+
+    .terms {
+        margin-top: 15px;
+    }
+
+    .mar1 {
+        margin-right: 160px;
+    }
+
+    .mar2 {
+        margin-right: 215px;
+    }
+
+    .mar3 {
+        margin-right: 205px;
+    }
+
+    .first img {
+        width: 159px;
+        height: 56px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        visibility: hidden;
+    }
+
+    .hamburger {
+        display: block;
+        visibility: visible;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 555px) {
+ 
+    .navbar {
+        height: 9vh;
+        align-items: center;
+
+    }
+
+    .main {
+        height: 53vh;
+    }
+
+    .last {
+        height: 38vh;
+        flex-direction: column;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    .navbar img {
+        width: 104px;
+        padding-left: 0px;
+        margin-left: 5px;
+    }
+
+    .left img {
+        width: 100vw;
+        height: 287px;
+    }
+
+    .last img {
+        width: 110px;
+        height: 39px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .right{
+        height: fit-content;
+        width: 100vw;
+    }
+
+    .header {
+        font-size: 15px;
+        width: 70vw;
+    }
+
+    li {
+        font-size: 12px;
+        padding-top: 8px;
+        width: 50vw;
+    }
+
+    .top {
+        padding-top: 12px;
+    }
+
+    .second,
+    .third {
+        padding-top: 20px;
+    }
+
+    .right button{
+        width: 257px;
+        height: 44px;
+        margin-right: 325px;
+        margin-top: 0px;
+        padding: 1vh 10vh;
+        white-space: nowrap;
+        margin-top: 30px;
+    }
+    .right{
+        background-color: #171111;
+        width: 10vw;
+        color: #171111;
+    }
+    .acc{
+        padding-top: 0px;
+    }
+    .acc2{
+        width: 100vw;
+    }
+    .signup-text{
+        font-size: 14px;
+        width: 40px;
+        height: 10px;
+    }
+    .hide{
+        display: none;
+    }
+    .hamburger{
+        margin: 0px;
+    }
+}
